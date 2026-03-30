@@ -5,7 +5,7 @@ let cache = { data: null, updatedAt: 0 };
 
 const SHEET_ID = '16X6WVCMDCdjlSienfe2we2M-Ljcvfw7MSFyYfQO5Y7s';
 const API_KEY = 'AIzaSyAiq4iGYcWemyoF1JhS-cD2oM-gMF2LdOY';
-const RANGE = 'Sheet1!A1:F9';
+const RANGE = 'COMB1!A1:F9';
 
 async function refreshCache() {
   try {
