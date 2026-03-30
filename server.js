@@ -3,7 +3,7 @@ const app = express();
 
 let cache = { data: null, updatedAt: 0 };
 
-const SHEET_ID = 'https://docs.google.com/spreadsheets/d/1TJGqRtz8GGNLdxUntA0VWH-QIYrL9IFJ4t1QW9l1LKI/edit?gid=0#gid=0';
+const SHEET_ID = '1TJGqRtz8GGNLdxUntA0VWH-QIYrL9IFJ4t1QW9l1LKI';
 const API_KEY = 'AIzaSyAiq4iGYcWemyoF1JhS-cD2oM-gMF2LdOY';
 const RANGE = 'Sheet1!A1:F10';
 
